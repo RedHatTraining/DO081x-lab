@@ -15,3 +15,9 @@ We may not be able to assist students with environments outside of this list.
   minishift delete
   minishift start
   ```
+* Error starting minishift with message: Checking if requested OpenShift version 'v3.11.43' is valid ... FAIL
+  * Try executing the following:
+  ```
+  minishift config set skip-check-openshift-release true
+  minishift start
+  ```
